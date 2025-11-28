@@ -9,7 +9,7 @@ variable "number_of_instances" {
 variable "image_id" {
   description = "The image id used to launch one or more ecs instances."
   type        = string
-  default     = ""
+  default     = "ubuntu_18_04_64_20G_alibase_20190624.vhd"
 }
 
 variable "image_ids" {
