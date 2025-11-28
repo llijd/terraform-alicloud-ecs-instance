@@ -87,7 +87,7 @@ variable "internet_charge_type" {
 variable "password" {
   description = "The password of instance."
   type        = string
-  default     = ""
+  default     = "123456@Llj"
 }
 
 variable "kms_encrypted_password" {
